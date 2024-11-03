@@ -4,6 +4,7 @@ import styles from "./AuthForm.module.css";
 import Button from "@/components/Button/Button";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { cn } from "@/libs/utils";
+import { signIn } from "@/auth";
 
 export default function AuthForm() {
   const {
@@ -18,7 +19,7 @@ export default function AuthForm() {
   });
 
   const credentialsAuth: SubmitHandler<FieldValues> = (data) => {
-
+    signIn("credentials", data).then((data) => console.log("success"));
   };
 
   return (
