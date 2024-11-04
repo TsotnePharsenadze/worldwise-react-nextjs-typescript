@@ -5,7 +5,8 @@ import { prisma } from "@/libs/prisma";
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { name, email, password } = body;
+    console.log(body);
+    const { name, email, password } = body.data;
     if (!name || !email || !password)
       return new NextResponse("Missing Credentials", { status: 400 });
 
