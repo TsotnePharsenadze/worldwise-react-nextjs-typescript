@@ -1,17 +1,10 @@
-"use client";
-
+import getCurrentUser from "@/actions/getCurrentUser";
 import { signOut } from "next-auth/react";
 
-const AppPage = () => {
-  return (
-    <button
-      onClick={() => {
-        signOut();
-      }}
-    >
-      Sign out
-    </button>
-  );
+const AppPage = async () => {
+  const user = await getCurrentUser();
+  console.log(user);
+  return <button>Sign out</button>;
 };
 
 export default AppPage;
