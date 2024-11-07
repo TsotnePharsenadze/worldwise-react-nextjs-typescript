@@ -6,7 +6,7 @@ interface ButtonInterface {
   onClick?: (e: any) => void;
   type: string;
   fullWidth?: boolean;
-  isLoading: boolean;
+  isLoading?: boolean;
 }
 
 const Button = ({

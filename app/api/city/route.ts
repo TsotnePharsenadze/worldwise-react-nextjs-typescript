@@ -6,7 +6,7 @@ export async function POST(req: Request) {
   try {
     const user = await getCurrentUser();
     const body = await req.json();
-    const { cityName, country, emoji, date, notes, lat, lng } = body.data;
+    const { cityName, country, emoji, date, notes, lat, lng } = body;
     if (!cityName || !country || !user?.id) {
       return NextResponse.json(
         { error: "cityName, country, and userId are required fields." },

@@ -90,7 +90,7 @@ export function CitiesContextProvider({
   const createCitty = async (cityData: Partial<City>) => {
     try {
       dispatch({ type: "loading" });
-      const res = await fetch(process.env.NEXT_PUBLIC_CITIES_API_URL, {
+      const res = await fetch("/api/city", {
         method: "POST",
         body: JSON.stringify(cityData),
         headers: { "Content-Type": "application/json" },
@@ -109,7 +109,7 @@ export function CitiesContextProvider({
   const deleteCity = async (id: number) => {
     try {
       dispatch({ type: "loading" });
-      await fetch(`${process.env.NEXT_PUBLIC_CITIES_API_URL}/${id}`, {
+      await fetch(`api/cities/${id}`, {
         method: "DELETE",
       });
       const updatedCities = cities
@@ -128,8 +128,8 @@ export function CitiesContextProvider({
     async function fetchData() {
       try {
         dispatch({ type: "loading" });
-        const data = getCurrentUser();
-        const sortedData = data.sort((a, b) => b.id - a.id);
+        const data = await getCurrentUser();
+        const sortedData = data?.citiesId?.sort((a, b) => b.id - a.id);
         dispatch({ type: "cities/loaded", payload: sortedData });
       } catch {
         dispatch({

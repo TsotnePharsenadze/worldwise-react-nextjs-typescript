@@ -3,7 +3,7 @@ import { useState } from "react";
 export function useGeolocation({
   defaultPosition = null,
 }: {
-  defaultPosition: { lat: number; lng: number } | null;
+  defaultPosition: { lat: number; lng: number } | null | undefined;
 }) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
