@@ -1,4 +1,6 @@
-import { useRouter } from "next/router"; // useRouter from next/router
+"use client";
+
+import { useRouter } from "next/navigation";
 import {
   MapContainer,
   TileLayer,
@@ -13,21 +15,6 @@ import Button from "../Button/Button";
 import { useGeolocation } from "@/hooks/useGeolocation";
 import { useUrlPosition } from "@/hooks/useUrlPosition";
 import styles from "./Map.module.css";
-
-interface CityPosition {
-  lat: number;
-  lng: number;
-}
-
-interface City {
-  id: number;
-  cityName: string;
-  country: string;
-  emoji: string;
-  notes: string;
-  date: string;
-  position: CityPosition;
-}
 
 interface ChangeCenterProps {
   position: [number, number];
@@ -46,7 +33,7 @@ const Map = () => {
 
   const { cities } = useCities();
   const router = useRouter();
-
+  console.log(cities);
   useEffect(() => {
     if (lat !== null && lng !== null && !isNaN(lat) && !isNaN(lng)) {
       setPosition([lat, lng]);
@@ -106,13 +93,13 @@ function ChangeCenter({ position }: ChangeCenterProps) {
 function DetectClick() {
   const router = useRouter();
 
-  useMapEvent({
-    click: (e) => {
-      const lat = e.latlng.lat;
-      const lng = e.latlng.lng;
-      router.push(`/form?lat=${lat}&lng=${lng}`);
-    },
+  useMapEvent("click", (e) => {
+    const lat = e.latlng.lat;
+    const lng = e.latlng.lng;
+    router.push(`/form?lat=${lat}&lng=${lng}`);
   });
+
+  return null;
 }
 
 export default Map;

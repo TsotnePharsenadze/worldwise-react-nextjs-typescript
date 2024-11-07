@@ -1,3 +1,5 @@
+"use client";
+
 import React, {
   createContext,
   useContext,
@@ -5,11 +7,15 @@ import React, {
   useCallback,
   ReactNode,
 } from "react";
-import { City } from "@prisma/client";
+import { City, Position } from "@prisma/client";
 import getCurrentUser from "@/actions/getCurrentUser";
 
+type CityWithPosition = City & {
+  position: Position;
+};
+
 interface State {
-  cities: City[];
+  cities: CityWithPosition[];
   isLoading: boolean;
   currentCity: City | null;
   error: string;

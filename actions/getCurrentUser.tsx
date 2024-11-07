@@ -15,7 +15,11 @@ export default async function getCurrentUser() {
         email: session.user.email as string,
       },
       include: {
-        citiesId: true,
+        citiesId: {
+          include: {
+            position: true,
+          },
+        },
       },
     });
 
