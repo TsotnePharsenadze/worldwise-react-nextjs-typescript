@@ -8,7 +8,8 @@ import React, {
   ReactNode,
 } from "react";
 import { City, Position } from "@prisma/client";
-import getCurrentUser from "@/actions/getCurrentUser";
+import getCities from "@/actions/getCities";
+import { useSession } from "next-auth/react";
 
 type CityWithPosition = City & {
   position: Position;
@@ -73,6 +74,7 @@ interface CitiesContextProviderProps {
 export function CitiesContextProvider({
   children,
 }: CitiesContextProviderProps) {
+  const session = useSession();
   const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,
     initialState
@@ -134,8 +136,8 @@ export function CitiesContextProvider({
     async function fetchData() {
       try {
         dispatch({ type: "loading" });
-        const data = await getCurrentUser();
-        const sortedData = data?.citiesId?.sort((a, b) => b.id - a.id);
+        const data = await getCities();
+        const sortedData = data?.sort((a, b) => b.id - a.id);
         dispatch({ type: "cities/loaded", payload: sortedData });
       } catch {
         dispatch({
@@ -144,9 +146,10 @@ export function CitiesContextProvider({
         });
       }
     }
-    fetchData();
-  }, []);
-
+    if (session?.status === "authenticated") {
+      fetchData();
+    }
+  }, [session]);
   return (
     <CitiesContext.Provider
       value={{
