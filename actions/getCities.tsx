@@ -1,3 +1,5 @@
+"use server";
+
 import { prisma } from "@/libs/prisma";
 
 import getSession from "./getSession";
@@ -28,6 +30,7 @@ export default async function getCities() {
         position: true,
       },
     });
+
     return cities;
   } catch (error: any) {
     return null;

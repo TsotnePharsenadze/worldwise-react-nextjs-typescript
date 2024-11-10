@@ -137,19 +137,30 @@ export function CitiesContextProvider({
       try {
         dispatch({ type: "loading" });
         const data = await getCities();
-        const sortedData = data?.sort((a, b) => b.id - a.id);
-        dispatch({ type: "cities/loaded", payload: sortedData });
-      } catch {
+        if (data) {
+          const sortedData = data.sort((a, b) => b.id - a.id);
+          dispatch({ type: "cities/loaded", payload: sortedData });
+        } else {
+          dispatch({
+            type: "rejected",
+            payload: "No data found",
+          });
+        }
+      } catch (error) {
         dispatch({
           type: "rejected",
           payload: "There was an error while fetching the data",
         });
       }
     }
+
     if (session?.status === "authenticated") {
+      console.log(session);
       fetchData();
     }
   }, [session]);
+
+  console.log(cities);
   return (
     <CitiesContext.Provider
       value={{

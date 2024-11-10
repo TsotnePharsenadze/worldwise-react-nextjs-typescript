@@ -44,7 +44,6 @@ const Map = () => {
   const [lat, lng] = useUrlPosition();
 
   const { cities } = useCities();
-  console.log(cities);
   useEffect(() => {
     if (lat !== null && lng !== null && !isNaN(lat) && !isNaN(lng)) {
       setPosition([lat, lng]);
