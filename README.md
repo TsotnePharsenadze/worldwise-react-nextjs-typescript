@@ -1,7 +1,7 @@
 <div align="center">
   <br/>
 <div class="display: flex; align-items:center; justify-content:center;">
-              <img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/logo.png" style="height: 100px; width: 100px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
+              <img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/logo.png" style="height: 100px; width: 100px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
 </div>
   <br/>
   <p>
@@ -9,9 +9,9 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
   </p>
 <table>
       <tr>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1pic-light.PNG" alt="10pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1pic.PNG" alt="10pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1mobile.PNG" alt="13mobile" width="100"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1pic-light.PNG" alt="10pic-light" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1pic.PNG" alt="10pic" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1mobile.PNG" alt="13mobile" width="100"></td>
         </tr>
 </table>
   <p>
@@ -110,14 +110,14 @@ AUTH_SECRET=""
 ## :camera: Screenshots
 <table>
       <tr>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1.PNG" alt="10pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/5.PNG" alt="10pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/2.PNG" alt="13mobile" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1.PNG" alt="10pic-light" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/5.PNG" alt="10pic" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/2.PNG" alt="13mobile" width="300"></td>
         </tr>
         <tr>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/6.PNG" alt="11pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/3.PNG" alt="11pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/4.PNG" alt="1mobile" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/6.PNG" alt="11pic-light" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/3.PNG" alt="11pic" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/4.PNG" alt="1mobile" width="300"></td>
         </tr>
 </table>
 
