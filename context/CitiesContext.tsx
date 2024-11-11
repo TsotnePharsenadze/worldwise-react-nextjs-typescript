@@ -119,7 +119,7 @@ export function CitiesContextProvider({
   const deleteCity = async (id: number) => {
     try {
       dispatch({ type: "loading" });
-      await fetch(`api/cities/${id}`, {
+      await fetch(`/api/cities/${id}`, {
         method: "DELETE",
       });
       const updatedCities = cities

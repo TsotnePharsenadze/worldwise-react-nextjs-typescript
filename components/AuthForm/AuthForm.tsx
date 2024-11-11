@@ -8,7 +8,6 @@ import { signIn, useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import { FaSpinner } from "react-icons/fa";
 
 export default function AuthForm() {
   const [isLoading, setIsLoading] = useState(false);

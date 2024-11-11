@@ -1,3 +1,4 @@
+import getCurrentUser from "@/actions/getCurrentUser";
 import { prisma } from "@/libs/prisma";
 import { NextResponse } from "next/server";
 
@@ -7,7 +8,7 @@ export async function GET(
 ) {
   try {
     const cityId = parseInt(params.cityId);
-    console.log(cityId);
+
     if (!cityId) {
       return new NextResponse("Missing cityId", { status: 400 });
     }
@@ -38,10 +39,18 @@ export async function DELETE(
     if (!cityId) {
       return new NextResponse("Missing cityId", { status: 400 });
     }
+    const currentUser = await getCurrentUser();
+    if (!currentUser?.id) {
+      return NextResponse.json(
+        { error: "Authenticated User is required for this action" },
+        { status: 401 }
+      );
+    }
 
     const city = await prisma.city.delete({
       where: {
         id: cityId,
+        userId: currentUser.id,
       },
     });
 
