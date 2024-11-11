@@ -33,7 +33,7 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
   </p>
    
   <h4>
-    <a href="#">Demo currently not avaliable because of the cost of third-party tools</a>
+    <a href="#">Demo not avaliable</a>
     <span> · </span>
     <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/readme.md">Documentation</a>
     <span> · </span>
