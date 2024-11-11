@@ -82,6 +82,7 @@ export function CitiesContextProvider({
 
   const getCity = useCallback(async (id: number) => {
     try {
+      console.log(id);
       dispatch({ type: "loading" });
       const res = await fetch(`/api/cities/${id}`);
       const data = await res.json();

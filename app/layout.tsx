@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SessionContextProvider from "@/context/SessionContextProvider";
 import { CitiesContextProvider } from "@/context/CitiesContext";
+import { polyfillCountryFlagEmojis } from "country-flag-emoji-polyfill";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  polyfillCountryFlagEmojis();
+
   return (
     <html lang="en">
       <body className={`${inter.className}`}>

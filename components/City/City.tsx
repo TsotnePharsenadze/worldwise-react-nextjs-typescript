@@ -48,7 +48,6 @@ function City({ id }: { id: string }) {
     <div className={styles.city}>
       <div className={styles.row}>
         <h6>City name</h6>
-        {JSON.stringify(currentCity)}
         <h3>
           <span>{emoji}</span> {cityName}
         </h3>
