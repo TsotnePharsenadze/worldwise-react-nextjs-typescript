@@ -1,7 +1,7 @@
 <div align="center">
   <br/>
 <div class="display: flex; align-items:center; justify-content:center;">
-              <img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/logo.png" style="height: 100px; width: 100px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
+              <img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/logo.png" style="height: 100px; width: 100px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
 </div>
   <br/>
   <p>
@@ -9,75 +9,54 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
   </p>
 <table>
       <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/1pic-light.PNG" alt="10pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/1pic.PNG" alt="10pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/1mobile.PNG" alt="13mobile" width="100"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1pic-light.PNG" alt="10pic-light" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1pic.PNG" alt="10pic" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1mobile.PNG" alt="13mobile" width="100"></td>
         </tr>
 </table>
   <p>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/WalleMechson/Discord-react-nextjs-typescript" alt="contributors" />
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/WalleMechson/worldwise-react-nextjs-typescript" alt="contributors" />
     </a>
     <a href="">
-      <img src="https://img.shields.io/github/last-commit/WalleMechson/Discord-react-nextjs-typescript" alt="last update" />
+      <img src="https://img.shields.io/github/last-commit/WalleMechson/worldwise-react-nextjs-typescript" alt="last update" />
     </a>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/network/members">
-      <img src="https://img.shields.io/github/forks/WalleMechson/Discord-react-nextjs-typescript" alt="forks" />
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/network/members">
+      <img src="https://img.shields.io/github/forks/WalleMechson/worldwise-react-nextjs-typescript" alt="forks" />
     </a>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/stargazers">
-      <img src="https://img.shields.io/github/stars/WalleMechson/Discord-react-nextjs-typescript" alt="stars" />
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/stargazers">
+      <img src="https://img.shields.io/github/stars/WalleMechson/worldwise-react-nextjs-typescript" alt="stars" />
     </a>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/issues/">
-      <img src="https://img.shields.io/github/issues/WalleMechson/Discord-react-nextjs-typescript" alt="open issues" />
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/issues/">
+      <img src="https://img.shields.io/github/issues/WalleMechson/worldwise-react-nextjs-typescript" alt="open issues" />
     </a>
   </p>
    
   <h4>
     <a href="#">Demo currently not avaliable because of the cost of third-party tools</a>
     <span> · </span>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/readme.md">Documentation</a>
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/readme.md">Documentation</a>
     <span> · </span>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/issues/">Report Bug</a>
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/issues/">Report Bug</a>
     <span> · </span>
-    <a href="https://github.com/WalleMechson/Discord-react-nextjs-typescript/issues/">Request Feature</a>
+    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/issues/">Request Feature</a>
   </h4>
 </div>
 
 <br/>
 
-# Discord clone by Walle Mechson (pseudo-name)
-
 ## Features
 
-1. **Server and Channel Creation:**
+1. **Interactive Map for Saved Trips:**
+   - Visualize all your trips on a world map with markers for each saved location.
 
-   - Users can create and manage multiple servers and channels, providing a flexible structure for communication.
+2. **Location detection upon click on map:**
+   - Uses geolocation APIs to auto-detect the city, country, and region when you select a spot on the map and Provides options for manual adjustments, adding detailed notes, and setting travel dates for each trip.
 
-2. **Member Management:**
+3. **Next-Auth Authentication/Registration:**
+   - Secure authentication using Next-Auth, supporting credential authentication and registration for users.
 
-   - Server admins and moderators can manage members, including changing roles, kicking users, and inviting others to join the server.
-
-3. **Real-Time Text Chat:**
-
-   - Implemented a WebSocket-based real-time chat system with React-Query, allowing users to send, edit, and delete messages.
-
-4. **File and Image Uploads:**
-
-   - Users can upload and share pictures and files within channels and direct messages.
-
-5. **Audio and Video Chat:**
-
-   - Integrated audio and video communication within server channels and direct messages using LiveKit.
-
-6. **Clerk Authentication:**
-
-   - Secure authentication using Clerk, supporting multiple authentication methods for users.
-
-7. **File Management with UploadThing:**
-
-   - Efficient file management and storage using UploadThing, ensuring a seamless experience for handling user uploads.
-
-8. **Database Powered by Neon.tech:**
+4. **Database Powered by Neon.tech:**
    - Utilizes Neon.tech for a scalable and performant database, with Prisma as the ORM for efficient data management.
 
 <br/>
@@ -87,7 +66,7 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
 - Clone the repository:
 
   ```bash
-  git clone https://github.com/WalleMechson/Discord-react-nextjs-typescript
+  git clone https://github.com/WalleMechson/worldwise-react-nextjs-typescript
   ```
 
 - Navigate to the project directory:
@@ -102,26 +81,11 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
   npm install
   ```
 
-- Create .env file and setup all the neccessary env variables (Project uses NeonDb, UploadThing, ClerkJs and LiveKit as a third party db and SaaS)
+- Create .env file and setup all the neccessary env variables (Neon.tech database and secret for Next-Auth)
 
 ```
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-
-DATABASE_URL=
-
-UPLOADTHING_SECRET=
-UPLOADTHING_APP_ID=
-
-LIVEKIT_API_KEY=
-LIVEKIT_API_SECRET=
-NEXT_PUBLIC_LIVEKIT_URL=
+DATABASE_URL=""
+AUTH_SECRET=""
 ```
 
 - Set up Neon.tech and generate/push Prisma models:
@@ -146,69 +110,14 @@ NEXT_PUBLIC_LIVEKIT_URL=
 ## :camera: Screenshots
 <table>
       <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/1pic-light.PNG" alt="10pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/1pic.PNG" alt="10pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/1mobile.PNG" alt="13mobile" width="100"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/1.PNG" alt="10pic-light" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/5.PNG" alt="10pic" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/2.PNG" alt="13mobile" width="300"></td>
         </tr>
         <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/2pic-light.PNG" alt="11pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/2pic.PNG" alt="11pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/2mobile.PNG" alt="1mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/3pic-light.PNG" alt="12pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/3pic.PNG" alt="12pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/3mobile.PNG" alt="2mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/4pic-light.PNG" alt="13pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/4pic.PNG" alt="13pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/4mobile.PNG" alt="3mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/13pic-light.PNG" alt="1pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/13pic.PNG" alt="1pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/13mobile.PNG" alt="4mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/5pic-light.PNG" alt="2pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/5pic.PNG" alt="2pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/5mobile.PNG" alt="5mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/6pic-light.PNG" alt="3pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/6pic.PNG" alt="3pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/6mobile.PNG" alt="6mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/7pic-light.PNG" alt="4pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/7pic.PNG" alt="4pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/7mobile.PNG" alt="7mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/8pic-light.PNG" alt="5pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/8pic.PNG" alt="5pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/8mobile.PNG" alt="8mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/9pic-light.PNG" alt="6pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/9pic.PNG" alt="6pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/9mobile.PNG" alt="9mobile" width="100"></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/10pic-light.PNG" alt="7pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/10pic.PNG" alt="7pic" width="300"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/11pic-light.PNG" alt="8pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/11oic.PNG" alt="8pic" width="300"></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/12pic-light.PNG" alt="8pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/Discord-react-nextjs-typescript/blob/main/forGithub/12pic.PNG" alt="8pic" width="300"></td>
-            <td></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/6.PNG" alt="11pic-light" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/3.PNG" alt="11pic" width="300"></td>
+            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/forGithub/4.PNG" alt="1mobile" width="300"></td>
         </tr>
 </table>
 
