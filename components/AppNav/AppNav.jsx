@@ -5,14 +5,25 @@ import styles from "./AppNav.module.css";
 
 function AppNav() {
   const pathname = usePathname();
+  console.log(pathname);
   return (
     <nav className={styles.nav}>
       <ul>
         <li>
-          <a href={`${pathname}/cities`}>Cities</a>
+          <a
+            href={`/app/cities`}
+            className={`${pathname.includes("cities") && "active"}`}
+          >
+            Cities
+          </a>
         </li>
         <li>
-          <a href={`${pathname}/countries`}>Countries</a>
+          <a
+            href={`/app/countries`}
+            className={`${pathname.includes("countries") && "active"}`}
+          >
+            Countries
+          </a>
         </li>
       </ul>
     </nav>

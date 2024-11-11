@@ -14,13 +14,6 @@ export default async function getCurrentUser() {
       where: {
         email: session.user.email as string,
       },
-      include: {
-        citiesId: {
-          include: {
-            position: true,
-          },
-        },
-      },
     });
 
     if (!currentUser) {

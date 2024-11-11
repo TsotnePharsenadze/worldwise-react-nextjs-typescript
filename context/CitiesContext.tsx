@@ -84,9 +84,8 @@ export function CitiesContextProvider({
     try {
       dispatch({ type: "loading" });
       const res = await fetch(`/api/cities/${id}`);
-      const data: City[] = await res.json();
-      const targetCity = data.find((city) => city.id === id);
-      dispatch({ type: "city/loaded", payload: targetCity });
+      const data = await res.json();
+      dispatch({ type: "city/loaded", payload: data });
     } catch {
       dispatch({
         type: "rejected",

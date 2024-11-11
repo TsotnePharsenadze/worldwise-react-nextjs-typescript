@@ -1,8 +1,11 @@
 "use client";
-import { signOut } from "next-auth/react";
 
-const AppPage = async () => {
-  return <button onClick={() => signOut()}>Sign out</button>;
+import { useRouter } from "next/navigation";
+
+const AppPage = () => {
+  const router = useRouter();
+  router.push('/app/cities');
+  return null;
 };
 
 export default AppPage;
