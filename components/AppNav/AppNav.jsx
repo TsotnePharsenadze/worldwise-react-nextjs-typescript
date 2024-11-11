@@ -5,7 +5,6 @@ import styles from "./AppNav.module.css";
 
 function AppNav() {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <nav className={styles.nav}>
       <ul>
