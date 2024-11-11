@@ -1,7 +1,7 @@
 <div align="center">
   <br/>
 <div class="display: flex; align-items:center; justify-content:center;">
-              <img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/logo.png" style="height: 100px; width: 100px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
+              <img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/logo.png" style="height: 60px; width: 300px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
 </div>
   <br/>
   <p>
