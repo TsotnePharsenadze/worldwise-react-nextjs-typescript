@@ -26,6 +26,9 @@ export async function POST(req: Request) {
         },
         position: lat && lng ? { create: { lat, lng } } : undefined,
       },
+      include: {
+        position: true,
+      },
     });
 
     return NextResponse.json(newCity, { status: 201 });

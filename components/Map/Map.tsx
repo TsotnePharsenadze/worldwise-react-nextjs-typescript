@@ -106,7 +106,7 @@ function DetectClick() {
   useMapEvent("click", (e) => {
     const lat = e.latlng.lat;
     const lng = e.latlng.lng;
-    router.push(`/form?lat=${lat}&lng=${lng}`);
+    router.push(`/app/form?lat=${lat}&lng=${lng}`);
   });
 
   return null;

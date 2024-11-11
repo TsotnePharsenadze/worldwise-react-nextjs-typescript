@@ -10,6 +10,7 @@ import React, {
 import { City, Position } from "@prisma/client";
 import getCities from "@/actions/getCities";
 import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 type CityWithPosition = City & {
   position: Position;
@@ -74,6 +75,7 @@ interface CitiesContextProviderProps {
 export function CitiesContextProvider({
   children,
 }: CitiesContextProviderProps) {
+  const router = useRouter();
   const session = useSession();
   const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
     reducer,

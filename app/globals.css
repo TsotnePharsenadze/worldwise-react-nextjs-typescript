@@ -50,7 +50,10 @@ html {
   scrollbar-width: thin;
   scrollbar-color: #2d3439 #42484d;
 }
-
+* {
+  font-family: "Manrope", sans-serif, "Twemoji Country Flags", "Helvetica",
+    "Comic Sans", serif;
+}
 body {
   font-family: "Manrope", sans-serif, "Twemoji Country Flags", "Helvetica",
     "Comic Sans", serif;
@@ -131,4 +134,9 @@ input:focus {
 
 .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--2);
+}
+
+.react-datepicker {
+  font-family: inherit;
+  font-size: 1.2rem !important;
 }
