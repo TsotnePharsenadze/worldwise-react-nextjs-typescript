@@ -1,7 +1,7 @@
 <div align="center">
   <br/>
 <div class="display: flex; align-items:center; justify-content:center;">
-              <img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/logo.png" style="height: 60px; width: 300px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
+              <img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/logo.png" style="height: 60px; width: 300px;" /> <h1 style="font-size: 70px;"> WorldWise in Next.js, Typescript, Next-Auth and Prisma</h1>
 </div>
   <br/>
   <p>
@@ -9,37 +9,37 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
   </p>
 <table>
       <tr>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1.PNG" alt="10pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/2.PNG" alt="10pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/3.PNG" alt="13mobile" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1.PNG" alt="10pic-light" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/2.PNG" alt="10pic" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/3.PNG" alt="13mobile" width="300"></td>
         </tr>
 </table>
   <p>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/WalleMechson/worldwise-react-nextjs-typescript" alt="contributors" />
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/TsotnePharsenadze/worldwise-react-nextjs-typescript" alt="contributors" />
     </a>
     <a href="">
-      <img src="https://img.shields.io/github/last-commit/WalleMechson/worldwise-react-nextjs-typescript" alt="last update" />
+      <img src="https://img.shields.io/github/last-commit/TsotnePharsenadze/worldwise-react-nextjs-typescript" alt="last update" />
     </a>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/network/members">
-      <img src="https://img.shields.io/github/forks/WalleMechson/worldwise-react-nextjs-typescript" alt="forks" />
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/network/members">
+      <img src="https://img.shields.io/github/forks/TsotnePharsenadze/worldwise-react-nextjs-typescript" alt="forks" />
     </a>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/stargazers">
-      <img src="https://img.shields.io/github/stars/WalleMechson/worldwise-react-nextjs-typescript" alt="stars" />
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/stargazers">
+      <img src="https://img.shields.io/github/stars/TsotnePharsenadze/worldwise-react-nextjs-typescript" alt="stars" />
     </a>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/issues/">
-      <img src="https://img.shields.io/github/issues/WalleMechson/worldwise-react-nextjs-typescript" alt="open issues" />
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/issues/">
+      <img src="https://img.shields.io/github/issues/TsotnePharsenadze/worldwise-react-nextjs-typescript" alt="open issues" />
     </a>
   </p>
    
   <h4>
     <a href="#">Demo not avaliable</a>
     <span> · </span>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/readme.md">Documentation</a>
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/readme.md">Documentation</a>
     <span> · </span>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/issues/">Report Bug</a>
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/issues/">Report Bug</a>
     <span> · </span>
-    <a href="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/issues/">Request Feature</a>
+    <a href="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -66,7 +66,7 @@ Converted/Completed, WorldWise app, previously built only in React, which didn't
 - Clone the repository:
 
   ```bash
-  git clone https://github.com/WalleMechson/worldwise-react-nextjs-typescript
+  git clone https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript
   ```
 
 - Navigate to the project directory:
@@ -110,14 +110,14 @@ AUTH_SECRET=""
 ## :camera: Screenshots
 <table>
       <tr>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1.PNG" alt="10pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/5.PNG" alt="10pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/2.PNG" alt="13mobile" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/1.PNG" alt="10pic-light" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/5.PNG" alt="10pic" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/2.PNG" alt="13mobile" width="300"></td>
         </tr>
         <tr>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/6.PNG" alt="11pic-light" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/3.PNG" alt="11pic" width="300"></td>
-            <td><img src="https://github.com/WalleMechson/worldwise-react-nextjs-typescript/blob/main/public/forGithub/4.PNG" alt="1mobile" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/6.PNG" alt="11pic-light" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/3.PNG" alt="11pic" width="300"></td>
+            <td><img src="https://github.com/TsotnePharsenadze/worldwise-react-nextjs-typescript/blob/main/public/forGithub/4.PNG" alt="1mobile" width="300"></td>
         </tr>
 </table>
 
